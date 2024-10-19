@@ -1305,3 +1305,580 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.exc.
 2024-10-18 16:52:18 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2024-10-18 16:52:18 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [1]
 2024-10-18 16:52:18 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 19:34:12 [Thread-1] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Fri Oct 18 16:52:17 IST 2024
+2024-10-19 19:35:26 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/controller/EmployeeController.class]
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/repository/impl/EmployeeRepositoryImpl.class]
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/service/impl/EmployeeServiceImpl.class]
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 26 bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@226577df]
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.w.e.c.EmployeeController:
+	{POST [/employeeManagement]}: addEMployee(Employee)
+	{GET [/employeeManagement/{empId}]}: getEmployeeByEmpId(int)
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 2 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 19:35:26 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' {}
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'themeResolver'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewNameTranslator'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeController'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeServiceImpl'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeRepositoryImpl'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'employeeServiceImpl' via constructor to bean named 'employeeRepositoryImpl'
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3836a3c9
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@55ed7638
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-19 19:35:27 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 842 ms
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement?empId=2", parameters={masked}
+2024-10-19 19:35:27 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-10-19 19:35:27 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 405 METHOD_NOT_ALLOWED
+2024-10-19 19:41:14 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement%7B2%7D", parameters={}
+2024-10-19 19:41:14 [http-nio-8080-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /Employee/employeeManagement%7B2%7D
+2024-10-19 19:41:14 [http-nio-8080-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No endpoint GET /Employee/employeeManagement%7B2%7D.
+2024-10-19 19:41:14 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /Employee/employeeManagement%7B2%7D.]
+2024-10-19 19:41:14 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2024-10-19 19:42:18 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/2", parameters={}
+2024-10-19 19:42:18 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getEmployeeByEmpId(int)
+2024-10-19 19:42:18 [http-nio-8080-exec-8] DEBUG org.springframework.web.method.HandlerMethod - Could not resolve parameter [0] in public com.wavemaker.employee.pojo.Employee com.wavemaker.employee.controller.EmployeeController.getEmployeeByEmpId(int): Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+2024-10-19 19:42:18 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Failed to complete request: java.lang.IllegalArgumentException: Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+2024-10-19 20:02:46 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:02:46 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:02:46 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=123, name='John Doe', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:02:46 [http-nio-8080-exec-10] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=123, name='John Doe', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:02:46 [http-nio-8080-exec-10] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 1
+2024-10-19 20:02:46 [http-nio-8080-exec-10] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 1
+2024-10-19 20:02:46 [http-nio-8080-exec-10] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 1 added successfully.
+2024-10-19 20:02:46 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:02:46 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [1]
+2024-10-19 20:02:46 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:02:53 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/1", parameters={}
+2024-10-19 20:02:53 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getEmployeeByEmpId(int)
+2024-10-19 20:02:53 [http-nio-8080-exec-1] DEBUG org.springframework.web.method.HandlerMethod - Could not resolve parameter [0] in public com.wavemaker.employee.pojo.Employee com.wavemaker.employee.controller.EmployeeController.getEmployeeByEmpId(int): Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+2024-10-19 20:02:53 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Failed to complete request: java.lang.IllegalArgumentException: Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+2024-10-19 20:02:57 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/1", parameters={}
+2024-10-19 20:02:57 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getEmployeeByEmpId(int)
+2024-10-19 20:02:57 [http-nio-8080-exec-2] DEBUG org.springframework.web.method.HandlerMethod - Could not resolve parameter [0] in public com.wavemaker.employee.pojo.Employee com.wavemaker.employee.controller.EmployeeController.getEmployeeByEmpId(int): Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+2024-10-19 20:02:57 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Failed to complete request: java.lang.IllegalArgumentException: Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+2024-10-19 20:03:34 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:03:34 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:03:34 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=123, name='John Doe', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:03:34 [http-nio-8080-exec-5] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=123, name='John Doe', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:03:34 [http-nio-8080-exec-5] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 2
+2024-10-19 20:03:34 [http-nio-8080-exec-5] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 2
+2024-10-19 20:03:34 [http-nio-8080-exec-5] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 2 added successfully.
+2024-10-19 20:03:34 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:03:34 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [2]
+2024-10-19 20:03:34 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:03:40 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/1", parameters={}
+2024-10-19 20:03:40 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getEmployeeByEmpId(int)
+2024-10-19 20:03:40 [http-nio-8080-exec-6] DEBUG org.springframework.web.method.HandlerMethod - Could not resolve parameter [0] in public com.wavemaker.employee.pojo.Employee com.wavemaker.employee.controller.EmployeeController.getEmployeeByEmpId(int): Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+2024-10-19 20:03:40 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Failed to complete request: java.lang.IllegalArgumentException: Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+2024-10-19 20:06:43 [Thread-1] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Sat Oct 19 19:35:26 IST 2024
+2024-10-19 20:07:31 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2024-10-19 20:07:31 [http-nio-8080-exec-3] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2024-10-19 20:07:31 [http-nio-8080-exec-3] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/controller/EmployeeController.class]
+2024-10-19 20:07:31 [http-nio-8080-exec-3] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/repository/impl/EmployeeRepositoryImpl.class]
+2024-10-19 20:07:31 [http-nio-8080-exec-3] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/service/impl/EmployeeServiceImpl.class]
+2024-10-19 20:07:31 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 26 bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@375aeff9]
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.w.e.c.EmployeeController:
+	{POST [/employeeManagement]}: addEMployee(Employee)
+	{GET [/employeeManagement/{empId}]}: getEmployeeByEmpId(int)
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 2 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' {}
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'themeResolver'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewNameTranslator'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeController'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeServiceImpl'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeRepositoryImpl'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'employeeServiceImpl' via constructor to bean named 'employeeRepositoryImpl'
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@53356da2
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1b94982d
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-19 20:07:32 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 552 ms
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=123, name='John Doe', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:07:32 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=123, name='John Doe', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 1
+2024-10-19 20:07:32 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 1
+2024-10-19 20:07:32 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 1 added successfully.
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [1]
+2024-10-19 20:07:32 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:07:37 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/1", parameters={}
+2024-10-19 20:07:37 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getEmployeeByEmpId(int)
+2024-10-19 20:07:37 [http-nio-8080-exec-2] DEBUG org.springframework.web.method.HandlerMethod - Could not resolve parameter [0] in public com.wavemaker.employee.pojo.Employee com.wavemaker.employee.controller.EmployeeController.getEmployeeByEmpId(int): Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+2024-10-19 20:07:37 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Failed to complete request: java.lang.IllegalArgumentException: Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+2024-10-19 20:10:39 [Thread-1] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Sat Oct 19 20:07:31 IST 2024
+2024-10-19 20:10:49 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2024-10-19 20:10:49 [http-nio-8080-exec-2] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2024-10-19 20:10:49 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/controller/EmployeeController.class]
+2024-10-19 20:10:49 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/repository/impl/EmployeeRepositoryImpl.class]
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/service/impl/EmployeeServiceImpl.class]
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 26 bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@62d040db]
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.w.e.c.EmployeeController:
+	{POST [/employeeManagement]}: addEMployee(Employee)
+	{GET [/employeeManagement/{empId}]}: getEmployeeByEmpId(int)
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 2 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' {}
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'themeResolver'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewNameTranslator'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeController'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeServiceImpl'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeRepositoryImpl'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'employeeServiceImpl' via constructor to bean named 'employeeRepositoryImpl'
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4ca5020e
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@d644e76
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-19 20:10:50 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 538 ms
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=123, name='John Doe', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:10:50 [http-nio-8080-exec-2] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=123, name='John Doe', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 1
+2024-10-19 20:10:50 [http-nio-8080-exec-2] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 1
+2024-10-19 20:10:50 [http-nio-8080-exec-2] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 1 added successfully.
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [1]
+2024-10-19 20:10:50 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:10:54 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/1", parameters={}
+2024-10-19 20:10:54 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getEmployeeByEmpId(int)
+2024-10-19 20:10:54 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Fetching employee with ID: 1
+2024-10-19 20:10:54 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee found: Employee{empId=1, name='John Doe', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:10:54 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:10:54 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [Employee{empId=1, name='John Doe', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:10:54 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:13:36 [Thread-1] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Sat Oct 19 20:10:49 IST 2024
+2024-10-19 20:13:58 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2024-10-19 20:13:58 [http-nio-8080-exec-3] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/controller/EmployeeController.class]
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/repository/impl/EmployeeRepositoryImpl.class]
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/service/impl/EmployeeServiceImpl.class]
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 26 bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@392222df]
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.w.e.c.EmployeeController:
+	{GET [/employeeManagement/getAllEmployees]}: getAllEmployees()
+	{POST [/employeeManagement]}: addEMployee(Employee)
+	{GET [/employeeManagement/{empId}]}: getEmployeeByEmpId(int)
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 3 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' {}
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'themeResolver'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewNameTranslator'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeController'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeServiceImpl'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeRepositoryImpl'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'employeeServiceImpl' via constructor to bean named 'employeeRepositoryImpl'
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3ab01e3a
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7f691080
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-19 20:13:59 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 603 ms
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=123, name='John Doe', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:13:59 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=123, name='John Doe', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 1
+2024-10-19 20:13:59 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 1
+2024-10-19 20:13:59 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 1 added successfully.
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [1]
+2024-10-19 20:13:59 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:14:39 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:14:39 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:14:39 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=0, name='roopa', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:14:39 [http-nio-8080-exec-4] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=0, name='roopa', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:14:39 [http-nio-8080-exec-4] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 2
+2024-10-19 20:14:39 [http-nio-8080-exec-4] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 2
+2024-10-19 20:14:39 [http-nio-8080-exec-4] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 2 added successfully.
+2024-10-19 20:14:39 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:14:39 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [2]
+2024-10-19 20:14:39 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:14:45 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/1", parameters={}
+2024-10-19 20:14:45 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getEmployeeByEmpId(int)
+2024-10-19 20:14:45 [http-nio-8080-exec-7] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Fetching employee with ID: 1
+2024-10-19 20:14:45 [http-nio-8080-exec-7] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee found: Employee{empId=1, name='John Doe', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:14:45 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:14:45 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [Employee{empId=1, name='John Doe', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:14:45 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:15:11 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/getAllEmployees", parameters={}
+2024-10-19 20:15:11 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getAllEmployees()
+2024-10-19 20:15:11 [http-nio-8080-exec-8] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Fetching all employees.
+2024-10-19 20:15:11 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:15:11 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [[Employee{empId=1, name='John Doe', age=30, contact='123-456-7890', gender='Male'}, Employee{empId=2 (truncated)...]
+2024-10-19 20:15:11 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:16:52 [Thread-1] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Sat Oct 19 20:13:58 IST 2024
+2024-10-19 20:17:33 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2024-10-19 20:17:33 [http-nio-8080-exec-3] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/controller/EmployeeController.class]
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/repository/impl/EmployeeRepositoryImpl.class]
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/service/impl/EmployeeServiceImpl.class]
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 26 bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@7593fa53]
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.w.e.c.EmployeeController:
+	{GET [/employeeManagement/getAllEmployees]}: getAllEmployees()
+	{DELETE [/employeeManagement/{empId}]}: deleteEmployee(int)
+	{POST [/employeeManagement]}: addEMployee(Employee)
+	{GET [/employeeManagement/{empId}]}: getEmployeeByEmpId(int)
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' {}
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'themeResolver'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewNameTranslator'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeController'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeServiceImpl'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeRepositoryImpl'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'employeeServiceImpl' via constructor to bean named 'employeeRepositoryImpl'
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7fdda771
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@9cc64a8
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-19 20:17:34 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 603 ms
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=0, name='roopa', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:17:34 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=0, name='roopa', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 1
+2024-10-19 20:17:34 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 1
+2024-10-19 20:17:34 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 1 added successfully.
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [1]
+2024-10-19 20:17:34 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:17:40 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:17:40 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:17:40 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=0, name='roopa reddy', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:17:40 [http-nio-8080-exec-2] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=0, name='roopa reddy', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:17:40 [http-nio-8080-exec-2] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 2
+2024-10-19 20:17:40 [http-nio-8080-exec-2] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 2
+2024-10-19 20:17:40 [http-nio-8080-exec-2] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 2 added successfully.
+2024-10-19 20:17:40 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:17:40 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [2]
+2024-10-19 20:17:40 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:18:14 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - DELETE "/Employee/employeeManagement/1", parameters={}
+2024-10-19 20:18:14 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#deleteEmployee(int)
+2024-10-19 20:18:14 [http-nio-8080-exec-6] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Deleting employee with ID: 1
+2024-10-19 20:18:14 [http-nio-8080-exec-6] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 1 deleted successfully.
+2024-10-19 20:18:14 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:18:14 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [true]
+2024-10-19 20:18:14 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:18:21 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/getAllEmployees", parameters={}
+2024-10-19 20:18:21 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getAllEmployees()
+2024-10-19 20:18:21 [http-nio-8080-exec-7] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Fetching all employees.
+2024-10-19 20:18:21 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:18:21 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [[Employee{empId=2, name='roopa reddy', age=30, contact='123-456-7890', gender='Male'}]]
+2024-10-19 20:18:21 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:20:25 [Thread-1] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Sat Oct 19 20:17:33 IST 2024
+2024-10-19 20:21:02 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2024-10-19 20:21:02 [http-nio-8080-exec-2] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/controller/EmployeeController.class]
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/repository/impl/EmployeeRepositoryImpl.class]
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/service/impl/EmployeeServiceImpl.class]
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 26 bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@1a5a0e]
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.w.e.c.EmployeeController:
+	{GET [/employeeManagement/getAllEmployees]}: getAllEmployees()
+	{DELETE [/employeeManagement/{empId}]}: deleteEmployee(int)
+	{PUT [/employeeManagement]}: updateEmployee(Employee)
+	{POST [/employeeManagement]}: addEMployee(Employee)
+	{GET [/employeeManagement/{empId}]}: getEmployeeByEmpId(int)
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 5 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' {}
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'themeResolver'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewNameTranslator'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeController'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeServiceImpl'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeRepositoryImpl'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'employeeServiceImpl' via constructor to bean named 'employeeRepositoryImpl'
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1fce2c1e
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4e360c0f
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-19 20:21:03 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 553 ms
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/Employee/employeeManagement", parameters={}
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#updateEmployee(Employee)
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/octet-stream" to []
+2024-10-19 20:21:03 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public boolean com.wavemaker.employee.controller.EmployeeController.updateEmployee(com.wavemaker.employee.pojo.Employee)]
+2024-10-19 20:21:03 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2024-10-19 20:21:34 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:21:34 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:21:34 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=0, name='roopa reddy', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:21:34 [http-nio-8080-exec-4] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=0, name='roopa reddy', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:21:34 [http-nio-8080-exec-4] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 1
+2024-10-19 20:21:34 [http-nio-8080-exec-4] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 1
+2024-10-19 20:21:34 [http-nio-8080-exec-4] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 1 added successfully.
+2024-10-19 20:21:34 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:21:34 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [1]
+2024-10-19 20:21:34 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:21:44 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:21:44 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:21:44 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=0, name='roopa', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:21:44 [http-nio-8080-exec-5] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=0, name='roopa', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:21:44 [http-nio-8080-exec-5] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 2
+2024-10-19 20:21:44 [http-nio-8080-exec-5] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 2
+2024-10-19 20:21:44 [http-nio-8080-exec-5] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 2 added successfully.
+2024-10-19 20:21:44 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:21:44 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [2]
+2024-10-19 20:21:44 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:21:48 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/getAllEmployees", parameters={}
+2024-10-19 20:21:48 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getAllEmployees()
+2024-10-19 20:21:48 [http-nio-8080-exec-6] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Fetching all employees.
+2024-10-19 20:21:48 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:21:48 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [[Employee{empId=1, name='roopa reddy', age=30, contact='123-456-7890', gender='Male'}, Employee{empI (truncated)...]
+2024-10-19 20:21:48 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:24:41 [Thread-1] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Sat Oct 19 20:21:02 IST 2024
+2024-10-19 20:24:51 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/controller/EmployeeController.class]
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/repository/impl/EmployeeRepositoryImpl.class]
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/home/roopaa_500382/Downloads/Employee/target/classes/com/wavemaker/employee/service/impl/EmployeeServiceImpl.class]
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 26 bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@54276110]
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.w.e.c.EmployeeController:
+	{GET [/employeeManagement/getAllEmployees]}: getAllEmployees()
+	{DELETE [/employeeManagement/{empId}]}: deleteEmployee(int)
+	{PUT [/employeeManagement]}: updateEmployee(Employee)
+	{POST [/employeeManagement]}: addEMployee(Employee)
+	{GET [/employeeManagement/{empId}]}: getEmployeeByEmpId(int)
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 5 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' {}
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'themeResolver'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewNameTranslator'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeController'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeServiceImpl'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'employeeRepositoryImpl'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'employeeServiceImpl' via constructor to bean named 'employeeRepositoryImpl'
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@46e5dc33
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@25f34ee7
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-19 20:24:51 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 552 ms
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=0, name='roopa', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:24:51 [http-nio-8080-exec-2] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=0, name='roopa', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 1
+2024-10-19 20:24:51 [http-nio-8080-exec-2] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 1
+2024-10-19 20:24:51 [http-nio-8080-exec-2] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 1 added successfully.
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [1]
+2024-10-19 20:24:51 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:24:57 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/Employee/employeeManagement", parameters={}
+2024-10-19 20:24:57 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#addEMployee(Employee)
+2024-10-19 20:24:57 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=0, name='roopa reddy', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:24:57 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding new employee: Employee{empId=0, name='roopa reddy', age=30, contact='123-456-7890', gender='Male'}
+2024-10-19 20:24:57 [http-nio-8080-exec-3] DEBUG com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Generated new employee ID: 2
+2024-10-19 20:24:57 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Adding employee with ID: 2
+2024-10-19 20:24:57 [http-nio-8080-exec-3] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 2 added successfully.
+2024-10-19 20:24:57 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:24:57 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [2]
+2024-10-19 20:24:57 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:25:02 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/getAllEmployees", parameters={}
+2024-10-19 20:25:02 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getAllEmployees()
+2024-10-19 20:25:02 [http-nio-8080-exec-4] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Fetching all employees.
+2024-10-19 20:25:02 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:25:02 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [[Employee{empId=1, name='roopa', age=30, contact='123-456-7890', gender='Male'}, Employee{empId=2, n (truncated)...]
+2024-10-19 20:25:02 [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:25:12 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/Employee/employeeManagement", parameters={}
+2024-10-19 20:25:12 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#updateEmployee(Employee)
+2024-10-19 20:25:12 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Employee{empId=1, name='ashwini', age=30, contact='123-456-7890', gender='Male'}]
+2024-10-19 20:25:12 [http-nio-8080-exec-5] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Updating employee with ID: 1
+2024-10-19 20:25:12 [http-nio-8080-exec-5] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 1 updated successfully.
+2024-10-19 20:25:12 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:25:12 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [true]
+2024-10-19 20:25:12 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:25:17 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/getAllEmployees", parameters={}
+2024-10-19 20:25:17 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getAllEmployees()
+2024-10-19 20:25:17 [http-nio-8080-exec-6] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Fetching all employees.
+2024-10-19 20:25:17 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:25:17 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [[Employee{empId=1, name='ashwini', age=30, contact='123-456-7890', gender='Male'}, Employee{empId=2, (truncated)...]
+2024-10-19 20:25:17 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:25:21 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - DELETE "/Employee/employeeManagement/1", parameters={}
+2024-10-19 20:25:21 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#deleteEmployee(int)
+2024-10-19 20:25:21 [http-nio-8080-exec-7] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Deleting employee with ID: 1
+2024-10-19 20:25:21 [http-nio-8080-exec-7] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Employee with ID 1 deleted successfully.
+2024-10-19 20:25:21 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:25:21 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [true]
+2024-10-19 20:25:21 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-19 20:25:25 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/Employee/employeeManagement/getAllEmployees", parameters={}
+2024-10-19 20:25:25 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wavemaker.employee.controller.EmployeeController#getAllEmployees()
+2024-10-19 20:25:25 [http-nio-8080-exec-8] INFO  com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl - Fetching all employees.
+2024-10-19 20:25:25 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-19 20:25:25 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [[Employee{empId=2, name='roopa reddy', age=30, contact='123-456-7890', gender='Male'}]]
+2024-10-19 20:25:25 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
