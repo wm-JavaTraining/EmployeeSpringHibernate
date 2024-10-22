@@ -1,13 +1,17 @@
 package com.wavemaker.employee.repository;
 
-import com.wavemaker.employee.pojo.Employee;
+import com.wavemaker.employee.entities.Employee;
 
 import java.util.List;
 
 public interface EmployeeRepository {
-    public int  addEmployee(Employee employee);
-    public  Employee getEmployeeById(int empId);
+    public void addEmployee(Employee employee);
+
+    public Employee getEmployeeById(int empId);
+
     public List<Employee> getAllEmployees();
-    public boolean deleteEmployee(int empId);
+
+    public Employee deleteEmployee(Employee employee);
+
     public boolean updateEmployee(Employee employee);
 }

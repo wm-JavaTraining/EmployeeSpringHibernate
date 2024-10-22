@@ -1,8 +1,7 @@
 package com.wavemaker.employee.service.impl;
 
-import com.wavemaker.employee.pojo.Employee;
+import com.wavemaker.employee.entities.Employee;
 import com.wavemaker.employee.repository.EmployeeRepository;
-import com.wavemaker.employee.repository.impl.EmployeeRepositoryImpl;
 import com.wavemaker.employee.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -13,17 +12,13 @@ import java.util.List;
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
-//    @Qualifier("employeeRepository")
-    private final EmployeeRepository employeeRepository;
+    @Qualifier("employeeRepositoryInDbImpl")
+    private  EmployeeRepository employeeRepository;
 
-
-    public EmployeeServiceImpl(EmployeeRepository  employeeRepository) {
-        this.employeeRepository = employeeRepository;
-    }
 
     @Override
-    public int addEmployee(Employee employee) {
-        return employeeRepository.addEmployee(employee);
+    public void  addEmployee(Employee employee) {
+         employeeRepository.addEmployee(employee);
     }
 
     @Override
@@ -37,8 +32,8 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    public boolean deleteEmployee(int empId) {
-        return employeeRepository.deleteEmployee(empId);
+    public  Employee  deleteEmployee(Employee employee) {
+        return employeeRepository.deleteEmployee(employee);
     }
 
     @Override

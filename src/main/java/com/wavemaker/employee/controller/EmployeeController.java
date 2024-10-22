@@ -1,6 +1,6 @@
 package com.wavemaker.employee.controller;
 
-import com.wavemaker.employee.pojo.Employee;
+import com.wavemaker.employee.entities.Employee;
 import com.wavemaker.employee.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -16,8 +16,8 @@ public class EmployeeController {
 
 
     @PostMapping
-    public int addEMployee(@RequestBody Employee employee) {
-        return employeeService.addEmployee(employee);
+    public void addEmployee(@RequestBody Employee employee) {
+        employeeService.addEmployee(employee);
     }
 
     @GetMapping("/{empId}")  // Using path variable
@@ -31,12 +31,15 @@ public class EmployeeController {
     }
 
     @DeleteMapping("/{empId}")
-    public boolean deleteEmployee(@PathVariable int empId) {
-        return employeeService.deleteEmployee(empId);
+    public Employee deleteEmployee(@PathVariable int empId) {
+        Employee employee = employeeService.getEmployeeById(empId);
+        return employeeService.deleteEmployee(employee);
     }
 
-    @PutMapping
-    public boolean updateEmployee(@RequestBody Employee employee) {
+    @PutMapping("/{empId}")
+    public boolean updateEmployee(@PathVariable int empId) {
+        Employee employee = employeeService.getEmployeeById(empId);
+        employee.setName("Roopa");
         return employeeService.updateEmployee(employee);
     }
 

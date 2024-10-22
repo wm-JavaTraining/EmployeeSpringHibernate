@@ -1,4 +1,4 @@
-package com.wavemaker.employee.pojo;
+package com.wavemaker.employee.entities;
 
 import java.util.Objects;
 

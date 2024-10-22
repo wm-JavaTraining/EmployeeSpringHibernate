@@ -1,6 +1,6 @@
 package com.wavemaker.employee.repository.impl;
 
-import com.wavemaker.employee.pojo.Employee;
+import com.wavemaker.employee.entities.Employee;
 import com.wavemaker.employee.repository.EmployeeRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,13 +11,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Repository
+@Repository("employeeRepositoryInMemoryImpl")
 public class EmployeeRepositoryImpl implements EmployeeRepository {
     private static final Logger logger = LoggerFactory.getLogger(EmployeeRepositoryImpl.class);
     private static final Map<Integer, Employee> employeeMap = new HashMap<>();
 
     @Override
-    public int addEmployee(Employee employee) {
+    public void  addEmployee(Employee employee) {
         logger.info("Adding new employee: {}", employee);
         int empId = -1;
         empId = getMaxEmpId();
@@ -33,7 +33,6 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
         }
         employeeMap.put(employee.getEmpId(), employee);
         logger.info("Employee with ID {} added successfully.", employee.getEmpId());
-        return empId;
     }
 
     @Override
@@ -54,15 +53,15 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
     }
 
     @Override
-    public boolean deleteEmployee(int empId) {
-        logger.info("Deleting employee with ID: {}", empId);
-        if (!employeeMap.containsKey(empId)) {
-            logger.error("Employee with ID {} not found.", empId);
-            return false;
+    public Employee  deleteEmployee(Employee employee) {
+        logger.info("Deleting employee with ID: {}", employee.getEmpId());
+        if (!employeeMap.containsKey(employee.getEmpId())) {
+            logger.error("Employee with ID {} not found.", employee.getEmpId());
+            return employee;
         }
-        employeeMap.remove(empId);
-        logger.info("Employee with ID {} deleted successfully.", empId);
-        return true;
+         employee = employeeMap.remove(employee);
+        logger.info("Employee with ID {} deleted successfully.", employee.getEmpId());
+        return  employee;
 
     }
 

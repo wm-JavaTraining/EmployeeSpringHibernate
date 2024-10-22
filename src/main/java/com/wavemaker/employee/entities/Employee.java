@@ -1,16 +1,18 @@
-package com.wavemaker.employee.pojo;
+package com.wavemaker.employee.entities;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Objects;
 
+@Entity
 public class Employee {
 
 
     private static final Logger logger = LoggerFactory.getLogger(Employee.class);
+    @Id
     private int empId;
     private String name;
     private int age;
